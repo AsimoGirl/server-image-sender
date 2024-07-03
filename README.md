@@ -1,30 +1,32 @@
-# Proyecto de Redes 
+# Server image sender
 
-Proyecto en el cual se envían y reciben imágenes mediante un servidor.
+The comments and contents of the project are in Spanish as they were used for educational purposes.
 
-### Configuración
+Project in which images are sent and received through a server.
 
- Para instalar los requisitos automaticamente, debe ejecutar el siguiente comando:
+### Setting
+
+ To install the requirements automatically, you must run the following command:
 
 * `make setup`
 
-Para ejecutar la aplicación correctamente se deben tener dos terminales lista, una donde se
-ejecutará el servidor y otra donde se ejecutará la aplicación.
+To run the application correctly you must have two terminals ready, one where
+will run the server and another where the application will run.
 
-Para que funcione debe iniciar primero el servidor y posteriormente la app
+For it to work you must first start the server and then the app
 
-### Para ejecutar el servidor
+### To run the server
 
 * `make runServer`
 
-### Para ejecutar la aplicación
+### To run the application
 
 * `make runApp`
 
-### Para generar la documentación
+### To generate documentation
 
 * `make genDoc`
 
-### Para limpiar los contenidos
+### To clean the contents
 
 * `make clean`
